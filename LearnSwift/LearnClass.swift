@@ -150,6 +150,24 @@ class Person {
     }
 }
 
+class SomeClass {
+    required init(i: Int) {
+        
+    }
+}
+
+class SomeSubclass: SomeClass {
+    init() {
+        super.init(i: 0)
+        
+    }
+    
+    required init(i: Int) {
+        super.init(i: i)
+    }
+}
+
+
 //[C1]
 func learnClass() {
     //[C2]

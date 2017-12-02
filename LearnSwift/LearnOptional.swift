@@ -11,9 +11,9 @@ import Foundation
 //[C1]
 func learnOptional() {
     //[C2]
-    var favroiteDrink: String = "아메리카노"
+    var favoriteDrink: String = "아메리카노"
     //[C3]
-    //favroiteDrink = nil
+    //favoriteDrink = nil
     //위 코드는 컴파일 되지 않음
     
     //[C4]

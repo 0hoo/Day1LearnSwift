@@ -96,3 +96,10 @@ extension String {
         return Int(self.count) //이제부터 String타입은 "안녕".size() 이런식의 호출이 가능하다
     }
 }
+
+extension Array {
+    public init(capacity: Int) {
+        self.init()
+        self.reserveCapacity(capacity)
+    }
+}

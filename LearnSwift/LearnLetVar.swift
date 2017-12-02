@@ -40,11 +40,11 @@ func learnVarLet() {
     //이렇게 스위프틑 가능한한 항상 타입을 자동으로 추론한다. 내가 원하지 않는 타입을 추론할 때를 제외하곤 타입 선언을 붙이지 않는 것이 관례
     
     //[C11]
-    let shotOfEsspreso = 2
-    print(shotOfEsspreso)
+    let shotsOfEspresso = 2
+    print(shotsOfEspresso)
     
     //[C12]
-    //shotOfEsspreso = 3
+    //shotsOfEspresso = 3
     //let으로 선언한 변수는 변경할 수 없음. 변경하지 않는 한 let으로 선언하는 것이 좋다.
     
     //[C13]
